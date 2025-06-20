@@ -9,22 +9,22 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto px-6 py-2">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center space-x-2">
             <Image 
               src="/veganfunlogo1.png" 
               alt="Vegan Fun Logo" 
-              width={120} 
-              height={60}
+              width={90} 
+              height={45}
               className="object-contain"
             />
-            <span className="text-gray-600 text-lg">by</span>
+            <span className="text-gray-600 text-sm">by</span>
             <Image 
               src="/1.5_degree_logo.png.avif" 
               alt="1.5 Degree Logo" 
-              width={80} 
-              height={40}
+              width={60} 
+              height={30}
               className="object-contain"
             />
           </Link>
